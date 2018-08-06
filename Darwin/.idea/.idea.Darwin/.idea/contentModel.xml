@@ -20,9 +20,11 @@
             <e p="MovementSelectionCanvas.cs" t="Include" />
           </e>
           <e p="Movement" t="Include">
-            <e p="MovementButtons.cs" t="Include" />
+            <e p="ControlPadMovement.cs" t="Include" />
+            <e p="KeyboardControllerMovement.cs" t="Include" />
             <e p="MovementLogic.cs" t="Include" />
             <e p="SwipeMovement.cs" t="Include" />
+            <e p="VirtualStickMovement.cs" t="Include" />
           </e>
         </e>
         <e p="Virtual Joystick Pack" t="Include">

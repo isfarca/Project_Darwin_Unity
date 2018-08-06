@@ -3,11 +3,11 @@
 public class Ladder : MonoBehaviour 
 {
     // Declare variables.
-    [SerializeField] private MovementButtons _virtualStick;
-    [SerializeField] private MovementButtons _controlPadUp;
-    [SerializeField] private MovementButtons _controlPadDown;
+    [SerializeField] private VirtualStickMovement _virtualStick;
+    [SerializeField] private ControlPadMovement _controlPadUp;
+    [SerializeField] private ControlPadMovement _controlPadDown;
     [SerializeField] private SwipeMovement _swipe;
-    [SerializeField] private MovementButtons _keyboardController;
+    [SerializeField] private KeyboardControllerMovement _keyboardController;
     
     /// <summary>
     /// Calling by stayed trigger.

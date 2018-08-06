@@ -62,9 +62,11 @@
     <Compile Include="Assets\Scripts\Gameplay\Control.cs" />
     <Compile Include="Assets\Scripts\Gameplay\Ladder.cs" />
     <Compile Include="Assets\Scripts\Menu\MovementSelectionCanvas.cs" />
-    <Compile Include="Assets\Scripts\Movement\MovementButtons.cs" />
+    <Compile Include="Assets\Scripts\Movement\ControlPadMovement.cs" />
+    <Compile Include="Assets\Scripts\Movement\KeyboardControllerMovement.cs" />
     <Compile Include="Assets\Scripts\Movement\MovementLogic.cs" />
     <Compile Include="Assets\Scripts\Movement\SwipeMovement.cs" />
+    <Compile Include="Assets\Scripts\Movement\VirtualStickMovement.cs" />
     <Compile Include="Assets\Virtual Joystick Pack\Examples\2D Example\Player2DExample.cs" />
     <Compile Include="Assets\Virtual Joystick Pack\Examples\3D Example\Player3DExample.cs" />
     <Compile Include="Assets\Virtual Joystick Pack\Scripts\Base\Joystick.cs" />

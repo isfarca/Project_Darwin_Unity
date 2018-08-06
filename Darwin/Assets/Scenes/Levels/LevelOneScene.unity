@@ -471,6 +471,7 @@ GameObject:
   - component: {fileID: 136971506}
   - component: {fileID: 136971505}
   - component: {fileID: 136971504}
+  - component: {fileID: 136971507}
   m_Layer: 5
   m_Name: UpImage
   m_TagString: Untagged
@@ -571,6 +572,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 136971502}
   m_CullTransparentMesh: 0
+--- !u!114 &136971507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 136971502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 795bdb17e59e15b42a1abb657f911ef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _direction: 1
 --- !u!1 &152582856
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,13 +932,14 @@ GameObject:
   m_Component:
   - component: {fileID: 260525582}
   - component: {fileID: 260525583}
+  - component: {fileID: 260525584}
   m_Layer: 0
   m_Name: LadderColliderGameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &260525582
 Transform:
   m_ObjectHideFlags: 0
@@ -948,10 +962,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.029659748, y: -0.079591036}
+  m_Offset: {x: 0.029659748, y: -0.09720135}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -962,8 +976,24 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5207033, y: 2.8150249}
+  m_Size: {x: 1.5207033, y: 2.7798042}
   m_EdgeRadius: 0
+--- !u!114 &260525584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 260525581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a46814d0fb9c9f45a6f383a3f24b4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _virtualStick: {fileID: 2076908595}
+  _controlPadUp: {fileID: 136971507}
+  _controlPadDown: {fileID: 973804442}
+  _swipe: {fileID: 279221851}
+  _keyboardController: {fileID: 1949743009}
 --- !u!1001 &267427911
 Prefab:
   m_ObjectHideFlags: 0
@@ -1274,10 +1304,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 337932279}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d10e0cdcc973e2847b9aa8d2f9aeb773, type: 3}
+  m_Script: {fileID: 11500000, guid: 795bdb17e59e15b42a1abb657f911ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _direction: 2
+  _direction: 4
 --- !u!114 &337932282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1917,7 +1947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -454, y: 51.4}
+  m_AnchoredPosition: {x: -454, y: 118}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &622924350
@@ -2334,6 +2364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 721151710}
   - component: {fileID: 721151711}
+  - component: {fileID: 721151712}
   m_Layer: 0
   m_Name: LadderColliderGameObject (1)
   m_TagString: Untagged
@@ -2363,7 +2394,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.029659748, y: -0.079591036}
@@ -2379,6 +2410,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5207033, y: 2.8150249}
   m_EdgeRadius: 0
+--- !u!114 &721151712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 721151709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a46814d0fb9c9f45a6f383a3f24b4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _virtualStick: {fileID: 2076908595}
+  _controlPadUp: {fileID: 136971507}
+  _controlPadDown: {fileID: 973804442}
+  _swipe: {fileID: 279221851}
+  _keyboardController: {fileID: 1949743009}
 --- !u!1001 &721870143
 Prefab:
   m_ObjectHideFlags: 0
@@ -2773,6 +2820,7 @@ GameObject:
   - component: {fileID: 973804441}
   - component: {fileID: 973804440}
   - component: {fileID: 973804439}
+  - component: {fileID: 973804442}
   m_Layer: 5
   m_Name: DownImage
   m_TagString: Untagged
@@ -2873,6 +2921,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 973804437}
   m_CullTransparentMesh: 0
+--- !u!114 &973804442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 973804437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 795bdb17e59e15b42a1abb657f911ef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _direction: 3
 --- !u!1 &1007180648
 GameObject:
   m_ObjectHideFlags: 0
@@ -2918,10 +2978,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1007180648}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d10e0cdcc973e2847b9aa8d2f9aeb773, type: 3}
+  m_Script: {fileID: 11500000, guid: 795bdb17e59e15b42a1abb657f911ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _direction: 1
+  _direction: 2
 --- !u!114 &1007180651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3516,7 +3576,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1184530662}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 200127069}
@@ -5194,7 +5254,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -454, y: 91.4}
+  m_AnchoredPosition: {x: -454, y: 158}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1916048848
@@ -5707,7 +5767,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -454, y: 11.4}
+  m_AnchoredPosition: {x: -454, y: 78}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1949743007
@@ -5756,7 +5816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d10e0cdcc973e2847b9aa8d2f9aeb773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _direction: 0
 --- !u!114 &1949743010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6026,10 +6085,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2076908593}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d10e0cdcc973e2847b9aa8d2f9aeb773, type: 3}
+  m_Script: {fileID: 11500000, guid: a486bcd4f1d7b5a4fa9dc37fa9b2b882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _direction: 0
 --- !u!1001 &2100039787
 Prefab:
   m_ObjectHideFlags: 0
