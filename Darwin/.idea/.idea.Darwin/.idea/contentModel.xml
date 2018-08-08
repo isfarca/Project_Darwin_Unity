@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\f.isfarca\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Darwin.-1977250044.00" t="ExcludeRecursive" />
-    <e p="C:\Users\f.isfarca\Desktop\Darwin" t="IncludeRecursive">
+    <e p="C:\Users\f.isfarca\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Darwin.742691913.00" t="ExcludeRecursive" />
+    <e p="C:\Users\f.isfarca\Desktop\Project_Darwin_Unity\Darwin" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -26,6 +26,7 @@
             <e p="SwipeMovement.cs" t="Include" />
             <e p="VirtualStickMovement.cs" t="Include" />
           </e>
+          <e p="Mutation.cs" t="Include" />
         </e>
         <e p="Virtual Joystick Pack" t="Include">
           <e p="Examples" t="Include">
