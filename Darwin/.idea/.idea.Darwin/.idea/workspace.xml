@@ -10,22 +10,83 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MutationIcons.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HUD/MutationIcons.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1410">
+              <caret line="94" column="64" selection-start-line="94" selection-start-column="64" selection-end-line="94" selection-end-column="64" />
+              <folding>
+                <marker date="1534098625288" expanded="true" signature="6:32" ph="..." />
+                <marker date="1534098625288" expanded="true" signature="99:3524" ph="{...}" />
+                <marker date="1534098625288" expanded="true" signature="189:250" ph="/// Set mutation sprite. ... " />
+                <marker date="1534098625288" expanded="true" signature="291:424" ph="{...}" />
+                <marker date="1534098625288" expanded="true" signature="430:492" ph="/// Calling before start. ... " />
+                <marker date="1534098625288" expanded="true" signature="517:690" ph="{...}" />
+                <marker date="1534098625288" expanded="true" signature="696:754" ph="/// Calling by start. ... " />
+                <marker date="1534098625288" expanded="true" signature="779:2855" ph="{...}" />
+                <marker date="1534098625288" expanded="true" signature="1029:1136" ph="{...}" />
+                <marker date="1534098625288" expanded="true" signature="1228:2849" ph="{...}" />
+                <marker date="1534098625288" expanded="true" signature="1336:1572" ph="{...}" />
+                <marker date="1534098625288" expanded="true" signature="1637:1873" ph="{...}" />
+                <marker date="1534098625288" expanded="true" signature="1938:2174" ph="{...}" />
+                <marker date="1534098625288" expanded="true" signature="2240:2476" ph="{...}" />
+                <marker date="1534098625288" expanded="true" signature="2543:2779" ph="{...}" />
+                <marker date="1534098625288" expanded="true" signature="2865:2925" ph="/// Controlled calling. ... " />
+                <marker date="1534098625288" expanded="true" signature="2956:3202" ph="{...}" />
+                <marker date="1534098625288" expanded="true" signature="2986:3196" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mutation.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MutationHandler/Mutation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+              <folding>
+                <marker date="1534088058958" expanded="true" signature="6:72" ph="..." />
+                <marker date="1534088058958" expanded="true" signature="132:3279" ph="{...}" />
+                <marker date="1534088058958" expanded="true" signature="424:486" ph="/// Calling before start. ... " />
+                <marker date="1534088058958" expanded="true" signature="511:947" ph="{...}" />
+                <marker date="1534088058958" expanded="true" signature="1047:3277" ph="{...}" />
+                <marker date="1534088058958" expanded="true" signature="1084:3271" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MutationSprites.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MutationHandler/MutationSprites.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+              <folding>
+                <marker date="1534098595508" expanded="true" signature="64:363" ph="{...}" />
+                <marker date="1534098595508" expanded="true" signature="196:361" ph="/* 1. MutationIcons serializefield entfernen. ERLEDIGT ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/ControlPadMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/KeyboardControllerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraShaker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Control.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mutation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraAutoMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Action/ActionButtons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Action/ActionJumpLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/MovementSelectionCanvas.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MutationHandler/MutationSprites.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MutationHandler/Mutation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/VirtualStickMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/MovementLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/SwipeMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HUD/MutationIcons.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,7 +107,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement/KeyboardControllerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement/ControlPadMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MovementSelectionCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Mutation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/MutationFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/MutationIcons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mutation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MutationHandler/Mutation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MutationHandler/MutationSprites.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HUD/MutationIcons.cs" />
       </list>
     </option>
   </component>
@@ -123,15 +190,15 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28883496" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30339807" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -144,19 +211,24 @@
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/MutationFactory.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1533576608000" expanded="true" signature="56:1520" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="415:526" ph="/// Calling by stayed trigger. ... " />
-            <marker date="1533576608000" expanded="true" signature="577:1248" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="1056:1242" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="1258:1369" ph="/// Calling by exited trigger. ... " />
-            <marker date="1533576608000" expanded="true" signature="1420:1518" ph="{...}" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/MutationIcons.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mutation.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mutation.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement/SwipeMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -169,14 +241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <marker date="1533576608000" expanded="true" signature="56:1520" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="415:526" ph="/// Calling by stayed trigger. ... " />
-            <marker date="1533576608000" expanded="true" signature="577:1248" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="1056:1242" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="1258:1369" ph="/// Calling by exited trigger. ... " />
-            <marker date="1533576608000" expanded="true" signature="1420:1518" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -205,14 +269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <marker date="1533576608000" expanded="true" signature="56:1520" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="415:526" ph="/// Calling by stayed trigger. ... " />
-            <marker date="1533576608000" expanded="true" signature="577:1248" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="1056:1242" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="1258:1369" ph="/// Calling by exited trigger. ... " />
-            <marker date="1533576608000" expanded="true" signature="1420:1518" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -234,14 +290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-          <folding>
-            <marker date="1533576608000" expanded="true" signature="56:1520" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="415:526" ph="/// Calling by stayed trigger. ... " />
-            <marker date="1533576608000" expanded="true" signature="577:1248" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="1056:1242" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="1258:1369" ph="/// Calling by exited trigger. ... " />
-            <marker date="1533576608000" expanded="true" signature="1420:1518" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -269,13 +317,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bla.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Canvas/MovementCanvas.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Control.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Camera.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraShaker.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -343,40 +384,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement/ControlPadMovement.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/MutationBla.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="30">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/MutationFactory.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1533576608000" expanded="true" signature="56:1520" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="415:526" ph="/// Calling by stayed trigger. ... " />
-            <marker date="1533576608000" expanded="true" signature="577:1248" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="1056:1242" ph="{...}" />
-            <marker date="1533576608000" expanded="true" signature="1258:1369" ph="/// Calling by exited trigger. ... " />
-            <marker date="1533576608000" expanded="true" signature="1420:1518" ph="{...}" />
-          </folding>
+        <state relative-caret-position="733">
+          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/MutationIcons.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="70" column="62" lean-forward="true" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Control.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mutation.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+        <state relative-caret-position="390">
+          <caret line="26" column="83" lean-forward="true" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement/ControlPadMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
           <folding>
-            <marker date="1533753314068" expanded="true" signature="6:44" ph="..." />
-            <marker date="1533753314068" expanded="true" signature="84:2177" ph="{...}" />
-            <marker date="1533753314068" expanded="true" signature="285:343" ph="/// Calling by start. ... " />
-            <marker date="1533753314068" expanded="true" signature="368:438" ph="{...}" />
-            <marker date="1533753314068" expanded="true" signature="444:503" ph="/// Calling per frame. ... " />
-            <marker date="1533753314068" expanded="true" signature="529:1198" ph="{...}" />
-            <marker date="1533753314068" expanded="true" signature="1204:1475" ph="/// Change the sprite. ... " />
-            <marker date="1533753314068" expanded="true" signature="1554:2106" ph="{...}" />
+            <marker date="1533577942000" expanded="true" signature="6:50" ph="..." />
+            <marker date="1533577942000" expanded="true" signature="139:1644" ph="{...}" />
+            <marker date="1533577942000" expanded="true" signature="276:348" ph="/// Movement directions for player. ... " />
+            <marker date="1533577942000" expanded="true" signature="375:455" ph="{...}" />
+            <marker date="1533577942000" expanded="true" signature="465:527" ph="/// Calling before start. ... " />
+            <marker date="1533577942000" expanded="true" signature="552:708" ph="{...}" />
+            <marker date="1533577942000" expanded="true" signature="808:1373" ph="{...}" />
+            <marker date="1533577942000" expanded="true" signature="842:1367" ph="{...}" />
+            <marker date="1533577942000" expanded="true" signature="1480:1565" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MutationHandler/MutationSprites.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding>
+            <marker date="1534098595508" expanded="true" signature="64:363" ph="{...}" />
+            <marker date="1534098595508" expanded="true" signature="196:361" ph="/* 1. MutationIcons serializefield entfernen. ERLEDIGT ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MutationHandler/Mutation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+          <folding>
+            <marker date="1534088058958" expanded="true" signature="6:72" ph="..." />
+            <marker date="1534088058958" expanded="true" signature="132:3279" ph="{...}" />
+            <marker date="1534088058958" expanded="true" signature="424:486" ph="/// Calling before start. ... " />
+            <marker date="1534088058958" expanded="true" signature="511:947" ph="{...}" />
+            <marker date="1534088058958" expanded="true" signature="1047:3277" ph="{...}" />
+            <marker date="1534088058958" expanded="true" signature="1084:3271" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HUD/MutationIcons.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="64" selection-start-line="94" selection-start-column="64" selection-end-line="94" selection-end-column="64" />
+          <folding>
+            <marker date="1534098625288" expanded="true" signature="6:32" ph="..." />
+            <marker date="1534098625288" expanded="true" signature="99:3524" ph="{...}" />
+            <marker date="1534098625288" expanded="true" signature="189:250" ph="/// Set mutation sprite. ... " />
+            <marker date="1534098625288" expanded="true" signature="291:424" ph="{...}" />
+            <marker date="1534098625288" expanded="true" signature="430:492" ph="/// Calling before start. ... " />
+            <marker date="1534098625288" expanded="true" signature="517:690" ph="{...}" />
+            <marker date="1534098625288" expanded="true" signature="696:754" ph="/// Calling by start. ... " />
+            <marker date="1534098625288" expanded="true" signature="779:2855" ph="{...}" />
+            <marker date="1534098625288" expanded="true" signature="1029:1136" ph="{...}" />
+            <marker date="1534098625288" expanded="true" signature="1228:2849" ph="{...}" />
+            <marker date="1534098625288" expanded="true" signature="1336:1572" ph="{...}" />
+            <marker date="1534098625288" expanded="true" signature="1637:1873" ph="{...}" />
+            <marker date="1534098625288" expanded="true" signature="1938:2174" ph="{...}" />
+            <marker date="1534098625288" expanded="true" signature="2240:2476" ph="{...}" />
+            <marker date="1534098625288" expanded="true" signature="2543:2779" ph="{...}" />
+            <marker date="1534098625288" expanded="true" signature="2865:2925" ph="/// Controlled calling. ... " />
+            <marker date="1534098625288" expanded="true" signature="2956:3202" ph="{...}" />
+            <marker date="1534098625288" expanded="true" signature="2986:3196" ph="{...}" />
           </folding>
         </state>
       </provider>
