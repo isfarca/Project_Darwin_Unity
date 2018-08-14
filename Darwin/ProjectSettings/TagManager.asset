@@ -4,12 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Elephant
-  - Fish
-  - Hawk
-  - Rhino
-  - Turtle
-  - MutationSprites
+  - MutationHandler
   layers:
   - Default
   - TransparentFX

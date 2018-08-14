@@ -17,7 +17,8 @@
           </e>
           <e p="HUD" t="Include">
             <e p="Control.cs" t="Include" />
-            <e p="MutationIcons.cs" t="Include" />
+            <e p="MutationGameplayButton.cs" t="Include" />
+            <e p="MutationHandler.cs" t="Include" />
           </e>
           <e p="Menu" t="Include">
             <e p="MovementSelectionCanvas.cs" t="Include" />
@@ -28,10 +29,6 @@
             <e p="MovementLogic.cs" t="Include" />
             <e p="SwipeMovement.cs" t="Include" />
             <e p="VirtualStickMovement.cs" t="Include" />
-          </e>
-          <e p="MutationHandler" t="Include">
-            <e p="Mutation.cs" t="Include" />
-            <e p="MutationSprites.cs" t="Include" />
           </e>
         </e>
         <e p="Virtual Joystick Pack" t="Include">
