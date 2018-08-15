@@ -8,7 +8,9 @@ public class MutationHandler : MonoBehaviour
     public Sprite[] Selected;
     public Sprite[] DeSelected;
     private Image _elephant, _fish, _hawk, _rhino, _turtle;
-    
+    private int _elephantCounter, _fishCounter, _hawkCounter, _rhinoCounter, _turtleCounter;
+    private Transformation _transformationScript;
+
     /// <summary>
     /// Set mutation sprite.
     /// </summary>
@@ -33,6 +35,11 @@ public class MutationHandler : MonoBehaviour
         _hawk = transform.GetChild(2).GetComponent<Image>();
         _rhino = transform.GetChild(3).GetComponent<Image>();
         _turtle = transform.GetChild(4).GetComponent<Image>();
+        
+        // Get the transformation script.
+        _transformationScript = GameObject.FindGameObjectWithTag("Player").transform.GetChild(0)
+            .GetComponent<Transformation>();
+        GameObject.FindGameObjectWithTag("Player").transform.GetChild(0).gameObject.SetActive(false);
     }
 
     /// <summary>
@@ -54,6 +61,7 @@ public class MutationHandler : MonoBehaviour
         // Set default values.
         IsNormal = true;
         IsElephant = IsFish = IsHawk = IsRhino = IsTurtle = false;
+        _elephantCounter = _fishCounter = _hawkCounter = _rhinoCounter = _turtleCounter = 0;
 
         // Set mutation icons and activates this.
         foreach (MutationType currentMutation in ThreeMutations)
@@ -95,23 +103,39 @@ public class MutationHandler : MonoBehaviour
     }
 
     /// <summary>
-    /// Körper in einzelne Funktionen aufteilen [DeSelectAll(), SelectElephant(), etc.].**********
+    /// De select all images.
     /// </summary>
-    private void Update()
+    private void DeSelectAll()
     {
-        // By normal, load deselected button sprites.
-        if (IsNormal)
-        {
-            _elephant.sprite = DeSelected[0];
-            _fish.sprite = DeSelected[1];
-            _hawk.sprite = DeSelected[2];
-            _rhino.sprite = DeSelected[3];
-            _turtle.sprite = DeSelected[4];
-        }
+        // Switch selected / deselected images.
+        _elephant.sprite = DeSelected[0];
+        _fish.sprite = DeSelected[1];
+        _hawk.sprite = DeSelected[2];
+        _rhino.sprite = DeSelected[3];
+        _turtle.sprite = DeSelected[4];
+    }
 
-        // Who are you?
-        if (IsElephant)
+    /// <summary>
+    /// Select elephant image.
+    /// </summary>
+    public void SelectElephant()
+    {
+        // Set default transformation by second click this mutation button.
+        _fishCounter = _hawkCounter = _rhinoCounter = _turtleCounter = 0;
+        _elephantCounter++;
+        if (_elephantCounter <= 1) // Switch to elephant.
         {
+            // Start transformation process.
+            _transformationScript.GetTranformation("Elephant");
+
+            // Set boolean.
+            IsNormal = false;
+            IsElephant = true;
+            IsFish = false;
+            IsHawk = false;
+            IsRhino = false;
+            IsTurtle = false;
+
             // Switch selected / deselected images.
             _elephant.sprite = Selected[0];
             _fish.sprite = DeSelected[1];
@@ -119,50 +143,199 @@ public class MutationHandler : MonoBehaviour
             _rhino.sprite = DeSelected[3];
             _turtle.sprite = DeSelected[4];
         }
-        else if (IsFish)
+        else if (_elephantCounter > 1) // Switch to normal.
         {
+            // Start transformation process.
+            _transformationScript.GetTranformation("Normal");
+
+            // Set default values.
+            IsNormal = true;
+            IsElephant = false;
+            _elephantCounter = 0;
+
+            // Set the normal transformation.
+            DeSelectAll();
+        }
+    }
+
+    /// <summary>
+    /// Select fish image.
+    /// </summary>
+    public void SelectFish()
+    {
+        // Set default transformation by second click this mutation button.
+        _elephantCounter = _hawkCounter = _rhinoCounter = _turtleCounter = 0;
+        _fishCounter++;
+        if (_fishCounter <= 1) // Switch to fish.
+        {
+            // Start transformation process.
+            _transformationScript.GetTranformation("Fish");
+
+            // Set boolean.
+            IsNormal = false;
+            IsElephant = false;
+            IsFish = true;
+            IsHawk = false;
+            IsRhino = false;
+            IsTurtle = false;
+
             // Switch selected / deselected images.
+            _elephant.sprite = DeSelected[0];
             _fish.sprite = Selected[1];
-            _elephant.sprite = DeSelected[0];
             _hawk.sprite = DeSelected[2];
             _rhino.sprite = DeSelected[3];
             _turtle.sprite = DeSelected[4];
         }
-        else if (IsHawk)
+        else if (_fishCounter > 1) // Switch to normal.
         {
+            // Start transformation process.
+            _transformationScript.GetTranformation("Normal");
+
+            // Set default values.
+            IsNormal = true;
+            IsFish = false;
+            _fishCounter = 0;
+
+            // Set the normal transformation.
+            DeSelectAll();
+        }
+    }
+
+    /// <summary>
+    /// Select hawk image.
+    /// </summary>
+    public void SelectHawk()
+    {
+        // Set default transformation by second click this mutation button.
+        _elephantCounter = _fishCounter = _rhinoCounter = _turtleCounter = 0;
+        _hawkCounter++;
+        if (_hawkCounter <= 1) // Switch to hawk.
+        {
+            // Start transformation process.
+            _transformationScript.GetTranformation("Hawk");
+
+            // Set boolean.
+            IsNormal = false;
+            IsElephant = false;
+            IsFish = false;
+            IsHawk = true;
+            IsRhino = false;
+            IsTurtle = false;
+
             // Switch selected / deselected images.
+            _elephant.sprite = DeSelected[0];
+            _fish.sprite = DeSelected[1];
             _hawk.sprite = Selected[2];
-            _elephant.sprite = DeSelected[0];
-            _fish.sprite = DeSelected[1];
             _rhino.sprite = DeSelected[3];
             _turtle.sprite = DeSelected[4];
         }
-        else if (IsRhino)
+        else if (_hawkCounter > 1) // Switch to normal.
         {
+            // Start transformation process.
+            _transformationScript.GetTranformation("Normal");
+
+            // Set default values.
+            IsNormal = true;
+            IsHawk = false;
+            _hawkCounter = 0;
+
+            // Set the normal transformation.
+            DeSelectAll();
+        }
+    }
+
+    /// <summary>
+    /// Select rhino image.
+    /// </summary>
+    public void SelectRhino()
+    {
+        // Set default transformation by second click this mutation button.
+        _elephantCounter = _fishCounter = _hawkCounter = _turtleCounter = 0;
+        _rhinoCounter++;
+        if (_rhinoCounter <= 1) // Switch to hawk.
+        {
+            // Start transformation process.
+            _transformationScript.GetTranformation("Rhino");
+
+            // Set boolean.
+            IsNormal = false;
+            IsElephant = false;
+            IsFish = false;
+            IsHawk = false;
+            IsRhino = true;
+            IsTurtle = false;
+
             // Switch selected / deselected images.
+            _elephant.sprite = DeSelected[0];
+            _fish.sprite = DeSelected[1];
+            _hawk.sprite = DeSelected[2];
             _rhino.sprite = Selected[3];
-            _elephant.sprite = DeSelected[0];
-            _fish.sprite = DeSelected[1];
-            _hawk.sprite = DeSelected[2];
             _turtle.sprite = DeSelected[4];
         }
-        else if (IsTurtle)
+        else if (_rhinoCounter > 1) // Switch to normal.
         {
+            // Start transformation process.
+            _transformationScript.GetTranformation("Normal");
+
+            // Set default values.
+            IsNormal = true;
+            IsRhino = false;
+            _rhinoCounter = 0;
+
+            // Set the normal transformation.
+            DeSelectAll();
+        }
+    }
+
+    /// <summary>
+    /// Select turtle image.
+    /// </summary>
+    public void SelectTurtle()
+    {
+        // Set default transformation by second click this mutation button.
+        _elephantCounter = _fishCounter = _hawkCounter = _rhinoCounter = 0;
+        _turtleCounter++;
+        if (_turtleCounter <= 1) // Switch to hawk.
+        {
+            // Start transformation process.
+            _transformationScript.GetTranformation("Turtle");
+
+            // Set boolean.
+            IsNormal = false;
+            IsElephant = false;
+            IsFish = false;
+            IsHawk = false;
+            IsRhino = false;
+            IsTurtle = true;
+
             // Switch selected / deselected images.
-            _turtle.sprite = Selected[4];
             _elephant.sprite = DeSelected[0];
             _fish.sprite = DeSelected[1];
             _hawk.sprite = DeSelected[2];
             _rhino.sprite = DeSelected[3];
+            _turtle.sprite = Selected[4];
+        }
+        else if (_turtleCounter > 1) // Switch to normal.
+        {
+            // Start transformation process.
+            _transformationScript.GetTranformation("Normal");
+
+            // Set default values.
+            IsNormal = true;
+            IsTurtle = false;
+            _turtleCounter = 0;
+
+            // Set the normal transformation.
+            DeSelectAll();
         }
     }
 
     // Auto-properties.
     public MutationType[] ThreeMutations { private get; set; }
-    public bool IsNormal { get; set; }
-    public bool IsElephant { get; set; }
-    public bool IsFish { get; set; }
-    public bool IsHawk { get; set; }
-    public bool IsRhino { get; set; }
-    public bool IsTurtle { get; set; }
+    public bool IsNormal { get; private set; }
+    public bool IsElephant { get; private set; }
+    public bool IsFish { get; private set; }
+    public bool IsHawk { get; private set; }
+    public bool IsRhino { get; private set; }
+    public bool IsTurtle { get; private set; }
 }

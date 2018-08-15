@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Gameplay\CameraAutoMovement.cs" />
     <Compile Include="Assets\Scripts\Gameplay\CameraShaker.cs" />
     <Compile Include="Assets\Scripts\Gameplay\Ladder.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Transformation.cs" />
     <Compile Include="Assets\Scripts\HUD\Control.cs" />
     <Compile Include="Assets\Scripts\HUD\MutationGameplayButton.cs" />
     <Compile Include="Assets\Scripts\HUD\MutationHandler.cs" />
