@@ -13,8 +13,15 @@
           <e p="Gameplay" t="Include">
             <e p="CameraAutoMovement.cs" t="Include" />
             <e p="CameraShaker.cs" t="Include" />
+            <e p="ChargeObject.cs" t="Include" />
+            <e p="Dna.cs" t="Include" />
+            <e p="FlickeringLight.cs" t="Include" />
             <e p="Ladder.cs" t="Include" />
+            <e p="RotatingLight.cs" t="Include" />
+            <e p="SpecialAbilities.cs" t="Include" />
+            <e p="TrampleObject.cs" t="Include" />
             <e p="Transformation.cs" t="Include" />
+            <e p="Water.cs" t="Include" />
           </e>
           <e p="HUD" t="Include">
             <e p="Control.cs" t="Include" />

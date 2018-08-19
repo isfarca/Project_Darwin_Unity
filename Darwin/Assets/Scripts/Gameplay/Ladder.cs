@@ -8,7 +8,7 @@ public class Ladder : MonoBehaviour
     [SerializeField] private ControlPadMovement _controlPadDown;
     [SerializeField] private SwipeMovement _swipe;
     [SerializeField] private KeyboardControllerMovement _keyboardController;
-    
+
     /// <summary>
     /// Calling by stayed trigger.
     /// </summary>

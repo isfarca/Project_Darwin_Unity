@@ -5,7 +5,6 @@ public class MovementLogic : MonoBehaviour
     // Declare variables.
     private ActionJumpLogic _actionJumpLogicScript;
     private Rigidbody2D _playerRigidbody2D;
-    private float _playerHorizontalSpeed;
     
     /// <summary>
     /// Calling by awake.
@@ -29,7 +28,7 @@ public class MovementLogic : MonoBehaviour
         _actionJumpLogicScript.enabled = true;
         
         // Initialize variables.
-        _playerHorizontalSpeed = 300.0f;
+        PlayerHorizontalSpeed = 300.0f;
         Horizontal = 0.0f;
     }
     
@@ -56,9 +55,10 @@ public class MovementLogic : MonoBehaviour
     {
         // Movement.
         _playerRigidbody2D.velocity =
-            new Vector2(Horizontal * _playerHorizontalSpeed * Time.deltaTime, _playerRigidbody2D.velocity.y);
+            new Vector2(Horizontal * PlayerHorizontalSpeed * Time.deltaTime, _playerRigidbody2D.velocity.y);
     }
 
     // Auto-properties.
+    public float PlayerHorizontalSpeed { private get; set; }
     public float Horizontal { private get; set; }
 }

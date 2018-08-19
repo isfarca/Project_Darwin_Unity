@@ -4,9 +4,7 @@ public class ActionJumpLogic : MonoBehaviour
 {
     // Declare variables.
     private Rigidbody2D _playerRigidbody2D;
-    private bool _isGrounded;
     private bool _isJumping;
-    private float _jumpForce;
     private float _jumpTimeCounter;
     private float _jumpTime;
     
@@ -25,7 +23,7 @@ public class ActionJumpLogic : MonoBehaviour
     private void Start()
     {
         // Initialize variables.
-        _jumpForce = 5.0f;
+        JumpForce = 5.0f;
         _jumpTime = 0.35f;
         IsJumpButtonClicked = false;
     }
@@ -36,11 +34,11 @@ public class ActionJumpLogic : MonoBehaviour
     private void Update()
     {
         // Initialize variables for jumping.
-        if (_isGrounded && IsJumpButtonClicked)
+        if (IsGrounded && IsJumpButtonClicked)
         {
             _isJumping = true;
             _jumpTimeCounter = _jumpTime;
-            _playerRigidbody2D.velocity = Vector2.up * _jumpForce;
+            _playerRigidbody2D.velocity = Vector2.up * JumpForce;
         }
         
         // Begin jump.
@@ -48,7 +46,7 @@ public class ActionJumpLogic : MonoBehaviour
         {
             if (_jumpTimeCounter > 0)
             {
-                _playerRigidbody2D.velocity = new Vector2(_playerRigidbody2D.velocity.x, _jumpForce);
+                _playerRigidbody2D.velocity = new Vector2(_playerRigidbody2D.velocity.x, JumpForce);
                 _jumpTimeCounter -= Time.deltaTime;
             }
             else
@@ -63,19 +61,23 @@ public class ActionJumpLogic : MonoBehaviour
     /// <summary>
     /// Calling by enter collision.
     /// </summary>
-    private void OnCollisionEnter2D()
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        _isGrounded = true;
+        if (other.collider.CompareTag("Ground"))
+            IsGrounded = true;
     }
-    
+
     /// <summary>
     /// Calling by exited collision.
     /// </summary>
-    private void OnCollisionExit2D()
+    private void OnCollisionExit2D(Collision2D other)
     {
-        _isGrounded = false;
+        if (other.collider.CompareTag("Ground"))
+            IsGrounded = false;
     }
     
     // Auto-properties.
+    public float JumpForce { private get; set; }
     public bool IsJumpButtonClicked { private get; set; }
+    public bool IsGrounded { private get; set; }
 }

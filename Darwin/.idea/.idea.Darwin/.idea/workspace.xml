@@ -10,28 +10,106 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="MutationHandler.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HUD/MutationHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+              <folding>
+                <marker date="1534699661735" expanded="true" signature="6:54" ph="..." />
+                <marker date="1534699661735" expanded="true" signature="101:11615" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="400:461" ph="/// Set mutation sprite. ... " />
+                <marker date="1534699661735" expanded="true" signature="502:635" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="641:703" ph="/// Calling before start. ... " />
+                <marker date="1534699661735" expanded="true" signature="728:1272" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="1278:1336" ph="/// Calling by start. ... " />
+                <marker date="1534699661735" expanded="true" signature="1361:2268" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="1431:1538" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="1877:2205" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="2274:2352" ph="/// Set mutation icons and activate this. ... " />
+                <marker date="1534699661735" expanded="true" signature="2420:4292" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="2491:4286" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="2565:2807" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="2872:3114" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="3179:3421" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="3487:3729" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="3796:4038" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="4298:4360" ph="/// De select all images. ... " />
+                <marker date="1534699661735" expanded="true" signature="4391:4648" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="4654:4717" ph="/// Select elephant image. ... " />
+                <marker date="1534699661735" expanded="true" signature="4750:5992" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="4992:5594" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="5654:5986" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="5998:6057" ph="/// Select fish image. ... " />
+                <marker date="1534699661735" expanded="true" signature="6086:7304" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="6320:6918" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="6974:7298" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="7310:7369" ph="/// Select hawk image. ... " />
+                <marker date="1534699661735" expanded="true" signature="7398:8616" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="7632:8230" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="8286:8610" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="8622:8682" ph="/// Select rhino image. ... " />
+                <marker date="1534699661735" expanded="true" signature="8712:9935" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="8947:9546" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="9603:9929" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="9941:10002" ph="/// Select turtle image. ... " />
+                <marker date="1534699661735" expanded="true" signature="10033:11261" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="10269:10869" ph="{...}" />
+                <marker date="1534699661735" expanded="true" signature="10927:11255" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraAutoMovement.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraAutoMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+              <folding>
+                <marker date="1534692900773" expanded="true" signature="68:2124" ph="{...}" />
+                <marker date="1534692900773" expanded="true" signature="275:337" ph="/// Calling before start. ... " />
+                <marker date="1534692900773" expanded="true" signature="362:549" ph="{...}" />
+                <marker date="1534692900773" expanded="true" signature="555:613" ph="/// Calling by start. ... " />
+                <marker date="1534692900773" expanded="true" signature="638:958" ph="{...}" />
+                <marker date="1534692900773" expanded="true" signature="757:896" ph="{...}" />
+                <marker date="1534692900773" expanded="true" signature="964:1054" ph="/// Called once per frame, after update has finished. ... " />
+                <marker date="1534692900773" expanded="true" signature="1084:2122" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/ControlPadMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/SpecialAbilities.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/TrampleObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3EB1172F-BB8A-454A-887F-2E67145F4E3E/4b/ca8f3b4f/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/KeyboardControllerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraShaker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HUD/MutationGameplayButton.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F0A4FCD-0DC0-4584-B4CC-8C5CDBF93447/33/1e102ac4/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraAutoMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Action/ActionButtons.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Action/ActionJumpLogic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/MovementSelectionCanvas.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F0A4FCD-0DC0-4584-B4CC-8C5CDBF93447/fa/591f65ac/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HUD/MutationHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37F06E47-1AE9-442E-8B0C-B308E5C42E60/c1/dc2d952b/Stack`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Transformation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/VirtualStickMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/MovementLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Water.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HUD/MutationHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F0A4FCD-0DC0-4584-B4CC-8C5CDBF93447/2e/d1c0296e/ObjectPool`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HUD/MutationGameplayButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/ChargeObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F0A4FCD-0DC0-4584-B4CC-8C5CDBF93447/fa/591f65ac/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9F0A4FCD-0DC0-4584-B4CC-8C5CDBF93447/33/1e102ac4/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/MovementSelectionCanvas.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Action/ActionJumpLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Action/ActionButtons.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Dna.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraAutoMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/FlickeringLight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraShaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Transformation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/RotatingLight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/KeyboardControllerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/ControlPadMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/SwipeMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/MovementLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/VirtualStickMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -41,13 +119,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Canvas/MovementCanvas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Action/ActionButtons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Control.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Action/ActionJumpLogic.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraAutoMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraShaker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Movement/MovementLogic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement/SwipeMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement/MovementButtons.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement/VirtualStickMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement/KeyboardControllerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement/ControlPadMovement.cs" />
@@ -61,9 +135,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HUD/MutationIcons.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MutationHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HUD/MutationPackage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HUD/MutationGameplayButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HUD/MutationHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/FlickeringLight.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement/MovementLogic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/DnaButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Transformation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HUD/MutationGameplayButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Dna.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Action/ActionJumpLogic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ChargeObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/TrampleObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/SpecialAbilities.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Water.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraAutoMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HUD/MutationHandler.cs" />
       </list>
     </option>
   </component>
@@ -78,6 +163,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
       <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
@@ -86,19 +175,10 @@
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Darwin" type="483dac07:UnityExplorerNode$Root" />
             </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Darwin" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -140,15 +220,15 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3131068" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3398058" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37354988" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37354988" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -166,21 +246,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MutationHandler/MutationSprites.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/MutationFactory.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/MutationIcons.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mutation.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mutation.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement/SwipeMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="126" column="47" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -269,27 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraAutoMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement/MovementLogic.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="109" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Action/ActionJumpLogic.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement/KeyboardControllerMovement.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -327,9 +371,6 @@
           <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/MutationBla.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/MutationFactory.cs" />
@@ -375,88 +416,155 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MutationHandler.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/RotatingLight.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/FlickeringLight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement/ControlPadMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="54" selection-start-line="54" selection-end-line="59" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HUD/MutationHandler.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement/MovementLogic.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="101" selection-start-line="41" selection-start-column="101" selection-end-line="41" selection-end-column="101" />
-          <folding>
-            <marker date="1534359282401" expanded="true" signature="6:54" ph="..." />
-            <marker date="1534359282401" expanded="true" signature="101:11001" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="400:461" ph="/// Set mutation sprite. ... " />
-            <marker date="1534359282401" expanded="true" signature="502:635" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="641:703" ph="/// Calling before start. ... " />
-            <marker date="1534359282401" expanded="true" signature="728:1374" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="1380:1438" ph="/// Calling by start. ... " />
-            <marker date="1534359282401" expanded="true" signature="1463:3663" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="1606:1713" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="2055:3657" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="2129:2368" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="2433:2672" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="2737:2976" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="3042:3281" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="3348:3587" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="3669:3731" ph="/// De select all images. ... " />
-            <marker date="1534359282401" expanded="true" signature="3762:4019" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="4025:4088" ph="/// Select elephant image. ... " />
-            <marker date="1534359282401" expanded="true" signature="4121:5363" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="4363:4965" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="5025:5357" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="5369:5428" ph="/// Select fish image. ... " />
-            <marker date="1534359282401" expanded="true" signature="5457:6675" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="5691:6289" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="6345:6669" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="6681:6740" ph="/// Select hawk image. ... " />
-            <marker date="1534359282401" expanded="true" signature="6769:7987" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="7003:7601" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="7657:7981" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="7993:8053" ph="/// Select rhino image. ... " />
-            <marker date="1534359282401" expanded="true" signature="8083:9306" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="8318:8917" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="8974:9300" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="9312:9373" ph="/// Select turtle image. ... " />
-            <marker date="1534359282401" expanded="true" signature="9404:10632" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="9640:10240" ph="{...}" />
-            <marker date="1534359282401" expanded="true" signature="10298:10626" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Transformation.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
-          <folding>
-            <marker date="1534359427090" expanded="true" signature="6:44" ph="..." />
-            <marker date="1534359427090" expanded="true" signature="89:2532" ph="{...}" />
-            <marker date="1534359427090" expanded="true" signature="285:347" ph="/// Calling before start. ... " />
-            <marker date="1534359427090" expanded="true" signature="372:606" ph="{...}" />
-            <marker date="1534359427090" expanded="true" signature="612:743" ph="/// Start the coroutine for transformation set. ... " />
-            <marker date="1534359427090" expanded="true" signature="800:1788" ph="{...}" />
-            <marker date="1534359427090" expanded="true" signature="962:1782" ph="{...}" />
-            <marker date="1534359427090" expanded="true" signature="1794:2010" ph="/// Change the sprites. ... " />
-            <marker date="1534359427090" expanded="true" signature="2084:2530" ph="{...}" />
-          </folding>
+        <state relative-caret-position="915">
+          <caret line="61" column="60" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HUD/MutationGameplayButton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        <state relative-caret-position="222">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Dna.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Ladder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/ChargeObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/TrampleObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Action/ActionJumpLogic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/SpecialAbilities.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Transformation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Water.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/CameraAutoMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
           <folding>
-            <marker date="1534338802000" expanded="true" signature="6:50" ph="..." />
-            <marker date="1534338802000" expanded="true" signature="124:1392" ph="{...}" />
-            <marker date="1534338802000" expanded="true" signature="283:345" ph="/// Calling before start. ... " />
-            <marker date="1534338802000" expanded="true" signature="370:528" ph="{...}" />
-            <marker date="1534338802000" expanded="true" signature="628:1390" ph="{...}" />
-            <marker date="1534338802000" expanded="true" signature="665:1384" ph="{...}" />
+            <marker date="1534692900773" expanded="true" signature="68:2124" ph="{...}" />
+            <marker date="1534692900773" expanded="true" signature="275:337" ph="/// Calling before start. ... " />
+            <marker date="1534692900773" expanded="true" signature="362:549" ph="{...}" />
+            <marker date="1534692900773" expanded="true" signature="555:613" ph="/// Calling by start. ... " />
+            <marker date="1534692900773" expanded="true" signature="638:958" ph="{...}" />
+            <marker date="1534692900773" expanded="true" signature="757:896" ph="{...}" />
+            <marker date="1534692900773" expanded="true" signature="964:1054" ph="/// Called once per frame, after update has finished. ... " />
+            <marker date="1534692900773" expanded="true" signature="1084:2122" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HUD/MutationHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding>
+            <marker date="1534699661735" expanded="true" signature="6:54" ph="..." />
+            <marker date="1534699661735" expanded="true" signature="101:11615" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="400:461" ph="/// Set mutation sprite. ... " />
+            <marker date="1534699661735" expanded="true" signature="502:635" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="641:703" ph="/// Calling before start. ... " />
+            <marker date="1534699661735" expanded="true" signature="728:1272" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="1278:1336" ph="/// Calling by start. ... " />
+            <marker date="1534699661735" expanded="true" signature="1361:2268" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="1431:1538" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="1877:2205" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="2274:2352" ph="/// Set mutation icons and activate this. ... " />
+            <marker date="1534699661735" expanded="true" signature="2420:4292" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="2491:4286" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="2565:2807" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="2872:3114" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="3179:3421" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="3487:3729" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="3796:4038" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="4298:4360" ph="/// De select all images. ... " />
+            <marker date="1534699661735" expanded="true" signature="4391:4648" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="4654:4717" ph="/// Select elephant image. ... " />
+            <marker date="1534699661735" expanded="true" signature="4750:5992" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="4992:5594" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="5654:5986" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="5998:6057" ph="/// Select fish image. ... " />
+            <marker date="1534699661735" expanded="true" signature="6086:7304" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="6320:6918" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="6974:7298" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="7310:7369" ph="/// Select hawk image. ... " />
+            <marker date="1534699661735" expanded="true" signature="7398:8616" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="7632:8230" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="8286:8610" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="8622:8682" ph="/// Select rhino image. ... " />
+            <marker date="1534699661735" expanded="true" signature="8712:9935" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="8947:9546" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="9603:9929" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="9941:10002" ph="/// Select turtle image. ... " />
+            <marker date="1534699661735" expanded="true" signature="10033:11261" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="10269:10869" ph="{...}" />
+            <marker date="1534699661735" expanded="true" signature="10927:11255" ph="{...}" />
           </folding>
         </state>
       </provider>

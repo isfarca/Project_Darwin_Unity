@@ -15,13 +15,15 @@ public class Transformation : MonoBehaviour
     {
         // Get the scripts and components.
         _playerSpriteRenderer = GameObject.FindGameObjectWithTag("Player").GetComponent<SpriteRenderer>();
+        
         _transformationParticleSystem = GetComponent<ParticleSystem>();
+        _transformationParticleSystem.gameObject.SetActive(false); // Disable transformation particle.
     }
 
     /// <summary>
     /// Start the coroutine for transformation set.
     /// </summary>
-    /// <param name="currentMutation"></param>
+    /// <param name="currentMutation">Selected mutation.</param>
     public void GetTranformation(string currentMutation)
     {
         // Activate transformation game object.

@@ -39,7 +39,6 @@ public class MutationHandler : MonoBehaviour
         // Get the transformation script.
         _transformationScript = GameObject.FindGameObjectWithTag("Player").transform.GetChild(0)
             .GetComponent<Transformation>();
-        GameObject.FindGameObjectWithTag("Player").transform.GetChild(0).gameObject.SetActive(false);
     }
 
     /// <summary>
@@ -47,9 +46,6 @@ public class MutationHandler : MonoBehaviour
     /// </summary>
     private void Start()
     {
-        // Declare variables.
-        float yPosition = -25.0f;
-        
         // Test values.
         ThreeMutations = new[]
         {
@@ -63,42 +59,61 @@ public class MutationHandler : MonoBehaviour
         IsElephant = IsFish = IsHawk = IsRhino = IsTurtle = false;
         _elephantCounter = _fishCounter = _hawkCounter = _rhinoCounter = _turtleCounter = 0;
 
-        // Set mutation icons and activates this.
+        // Add mutation icon position by platform.
+        if (Application.platform != RuntimePlatform.Android)
+        {
+            transform.GetChild(5).gameObject.SetActive(true);
+            transform.GetChild(6).gameObject.SetActive(true);
+            transform.GetChild(7).gameObject.SetActive(true);
+            transform.GetChild(8).gameObject.SetActive(true);
+            
+            SetMutationIcons(100.0f, -125.0f);
+        }
+        else
+            SetMutationIcons(269.0f, 0.0f);
+    }
+
+    /// <summary>
+    /// Set mutation icons and activate this.
+    /// </summary>
+    private void SetMutationIcons(float xPosition, float yPosition)
+    {
         foreach (MutationType currentMutation in ThreeMutations)
         {
             if ((currentMutation & MutationType.Elephant) != 0)
             {
                 transform.GetChild(0).GetComponent<RectTransform>().anchoredPosition =
-                    new Vector3(269.0f, yPosition, 0.0f);
+                    new Vector3(xPosition, yPosition, 0.0f);
                 transform.GetChild(0).gameObject.SetActive(true);
             }
             else if ((currentMutation & MutationType.Fish) != 0)
             {
                 transform.GetChild(1).GetComponent<RectTransform>().anchoredPosition =
-                    new Vector3(269.0f, yPosition, 0.0f);
+                    new Vector3(xPosition, yPosition, 0.0f);
                 transform.GetChild(1).gameObject.SetActive(true);
             }
             else if ((currentMutation & MutationType.Hawk) != 0)
             {
                 transform.GetChild(2).GetComponent<RectTransform>().anchoredPosition =
-                    new Vector3(269.0f, yPosition, 0.0f);
+                    new Vector3(xPosition, yPosition, 0.0f);
                 transform.GetChild(2).gameObject.SetActive(true);
             }
             else if ((currentMutation & MutationType.Rhino) != 0)
             {
                 transform.GetChild(3).GetComponent<RectTransform>().anchoredPosition =
-                    new Vector3(269.0f, yPosition, 0.0f);
+                    new Vector3(xPosition, yPosition, 0.0f);
                 transform.GetChild(3).gameObject.SetActive(true);
             }
             else if ((currentMutation & MutationType.Turtle) != 0)
             {
                 transform.GetChild(4).GetComponent<RectTransform>().anchoredPosition =
-                    new Vector3(269.0f, yPosition, 0.0f);
+                    new Vector3(xPosition, yPosition, 0.0f);
                 transform.GetChild(4).gameObject.SetActive(true);
             }
 
             // Add offset.
-            yPosition += 50.0f;
+            xPosition = Application.platform != RuntimePlatform.Android ? xPosition + 50.0f : xPosition;
+            yPosition = Application.platform != RuntimePlatform.Android ? yPosition : yPosition + 50.0f;
         }
     }
 
@@ -331,8 +346,8 @@ public class MutationHandler : MonoBehaviour
     }
 
     // Auto-properties.
-    public MutationType[] ThreeMutations { private get; set; }
-    public bool IsNormal { get; private set; }
+    public MutationType[] ThreeMutations { get; set; }
+    private bool IsNormal { get; set; }
     public bool IsElephant { get; private set; }
     public bool IsFish { get; private set; }
     public bool IsHawk { get; private set; }

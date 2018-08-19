@@ -6,6 +6,7 @@ public class CameraAutoMovement : MonoBehaviour
     private GameObject _playerGameObject;
     private CameraShaker _cameraShakerScript;
     private float _cameraSpeedMultiplicator;
+    private float _playerLerpValue;
     
     /// <summary>
     /// Calling before start.
@@ -15,6 +16,21 @@ public class CameraAutoMovement : MonoBehaviour
         // Get the scripts and components.
         _playerGameObject = GameObject.FindGameObjectWithTag("Player");
         _cameraShakerScript = GetComponent<CameraShaker>();
+    }
+
+    /// <summary>
+    /// Calling by start.
+    /// </summary>
+    private void Start()
+    {
+        // Set the camera position for smartphones.
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            transform.position = new Vector3(1.0f, -1.0f, transform.position.z);
+            _playerLerpValue = -0.2f;
+        }
+        else
+            _playerLerpValue = 0.9357735f;
     }
 
     /// <summary>
@@ -39,7 +55,7 @@ public class CameraAutoMovement : MonoBehaviour
         // Smooth follow the camera vertical.
         Vector3 cameraPosition = transform.position;
         
-        cameraPosition.y = Mathf.Lerp(cameraPosition.y, _playerGameObject.transform.position.y + 0.9357735f, Time.deltaTime);
+        cameraPosition.y = Mathf.Lerp(cameraPosition.y, _playerGameObject.transform.position.y + _playerLerpValue, Time.deltaTime);
         transform.position = cameraPosition;
     }
 }
